@@ -78,3 +78,9 @@ Each timeline node supports the following frontmatter fields:
 - `author`: Contributor identifier.
 - `maintainer`: Long-term maintainer for this node (optional; defaults to `author`).
 - `authored_by`: Content origin, one of `human` / `ai-assisted` / `ai-generated` (optional; defaults to `unknown`).
+
+## Thanks To All Contributors
+
+<a href="https://github.com/Qiuner/ai-application-roadmap/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Qiuner/ai-application-roadmap" alt="ai-application-roadmap contributors" />
+</a>

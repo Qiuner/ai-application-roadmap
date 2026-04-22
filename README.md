@@ -88,3 +88,10 @@ If you want the full English introduction, go to [README_EN.md](./README_EN.md).
 - `author`: 贡献者标识。
 - `maintainer`: 该节点的长期维护者（可选，默认继承 `author`）。
 - `authored_by`: 内容来源，枚举值：`human` / `ai-assisted` / `ai-generated`（可选，默认 `unknown`）。
+友链:[LINUX.DO](https://linux.do)
+
+## 感谢所有贡献者
+
+<a href="https://github.com/Qiuner/ai-application-roadmap/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Qiuner/ai-application-roadmap" alt="ai-application-roadmap contributors" />
+</a>
