@@ -16,6 +16,8 @@ That textbook offered one idea that stayed with me: learning philosophy means le
 
 That is also why I started this project. Applied AI engineering is moving fast, but we still lack a clear timeline map that tells people where they are and what comes next.
 
+If you only master one or two hot technologies, you may get strong short-term returns. But that alone will not make you an expert. To become an expert, you need to understand the history.
+
 If you are serious about building AI systems, you are invited to contribute. The bar is intentionally low: add one markdown file under `docs/zh/timeline/*.md` (or `docs/en/timeline/*.md` for English), document a node clearly, and open a PR.
 
 ## What You Will Find
@@ -53,6 +55,8 @@ Open the matching tutorial and focus on: minimum runnable path, recommended setu
 
 ---
 
-**Example:** [`everything-claude-code`](https://github.com/affaan-m/everything-claude-code) is popular, and the content is genuinely solid. The README includes a Quick Start, but real onboarding can still feel heavy: beyond installing plugins, you often need to handle rules, install dependencies, and run scripts per language/workflow. Some users end up feeling that after all the setup, outcomes are not better by default.
+**Example:** [`everything-claude-code`](https://github.com/affaan-m/everything-claude-code) is popular. It was also the setup used by the Anthropic x Forum Ventures hackathon winner, and the README includes a Quick Start. But real onboarding is still heavier than it first appears: beyond installing plugins, you often need to handle rules, install dependencies, switch setups across languages, and configure extra capabilities. Many people follow the steps and still feel Claude Code ends up getting worse, not better.
 
-Before AGI fully arrives, hopefully this site helps you waste less time on avoidable detours.
+You should not have to repeat that kind of detour.
+
+Before AGI fully arrives, hopefully this site helps you waste less time.

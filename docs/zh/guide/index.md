@@ -18,7 +18,7 @@ import { projectMeta } from '../../.vitepress/project-meta'
 
 我们缺少一张清晰的“技术时间线地图”，让后来者知道自己身处哪一段、要往哪里走、那些已经被废弃了。
 
-如果你只精通一两个热门技术，也许能拿到阶段性的高回报；但你会成为专家，想要成为专家，你得要知道历史。
+如果你只精通一两个热门技术，能拿到阶段性的高回报；但你不会成为专家，想要成为专家，你得要知道历史。
 
 如果你也是认真做 AI 应用工程的人，欢迎一起贡献。这个仓库的门槛很低：你只需要新增一个 `docs/zh/timeline/*.md`（或英文 `docs/en/timeline/*.md`）文件，把你认可的节点写清楚并提交 PR 就可以了。
 
@@ -56,6 +56,8 @@ import { projectMeta } from '../../.vitepress/project-meta'
 
 ---
 
-**举个例子：**[`everything-claude-code`](https://github.com/affaan-m/everything-claude-code) 这个仓库很火，内容也确实完整，官方 README 给了 Quick Start。但真正上手时，除了装插件，还要处理 rules、安装依赖、针对不同语言跑脚本，部分能力还需要额外配置。结果很多人反而觉得：照着弄完，AI 能力好像还下降了？
+**举个例子：**[`everything-claude-code`](https://github.com/affaan-m/everything-claude-code) 这个仓库很火，是 Anthropic x Forum Ventures 黑客松冠军的配置，README 给了 Quick Start。但真正上手时，除了装插件，还要处理 rules、安装依赖、针对不同语言切换，部分能力还需要额外配置。结果很多人照着弄完，Claude Code 反而变笨了。
 
-AGI 来临之前，希望这里能帮你少走一些弯路。
+这样的弯路，不该让你重走一遍。
+
+AGI 来临之前，希望这里能帮你少走一些。
