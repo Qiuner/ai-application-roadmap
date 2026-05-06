@@ -2,7 +2,7 @@
 title: Harness Engineering（驾驭工程）
 date: 2026-02-11
 year: 2026
-summary: 'prompt 管"怎么说"，context 管"看到什么"，但光靠这两件事，模型依然会犯错、会失控。harness engineering 的意义，是把模型之外的一切——工具调用、记忆管理、错误恢复、状态追踪——设计成一套稳定的"脚手架"，每次模型出错，不是靠调整 prompt 祈祷下次变好，而是在系统层面堵死这个漏洞。是让 Agent 真正能跑在生产环境里的关键一层。'
+summary: prompt 管"怎么说"，context 管"看到什么"，但模型依然会出错失控。Harness Engineering 把工具调用、记忆、错误恢复设计成稳定脚手架——出错时不靠调 prompt 祈祷，而是在系统层面堵死漏洞，是让 Agent 真正跑进生产环境的关键一层。
 phase: emerging
 trend: rising
 signal: well-calibrated

@@ -2,7 +2,7 @@
 title: Context Engineering（上下文工程）
 date: 2025-09-29
 year: 2025
-summary: 'prompt-engineering 解决的是"怎么问"，但大模型能表现多好，很大程度取决于它"看到了什么"。context engineering 的意义，是把对话历史、外部知识、工具返回结果等信息，有策略地组织和筛选后塞进模型的"视野"里，让它在正确的信息下做出更准确的判断——是 RAG、Agent 记忆管理等技术的核心支撑。'
+summary: 'prompt 解决的是"怎么问"，但大模型能表现多好，很大程度取决于它"看到了什么"。context engineering 的意义，是把对话历史、外部知识、工具返回结果等信息，有策略地组织和筛选后塞进模型的"视野"里，让它在正确的信息下做出更准确的判断——是 RAG、Agent 记忆管理等技术的核心支撑。'
 phase: emerging
 trend: rising
 signal: well-calibrated

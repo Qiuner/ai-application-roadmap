@@ -2,7 +2,7 @@
 title: Function Calling（函数调用）
 date: 2023-06-13
 year: 2023
-summary: '模型本质上只会"说话"——你问它帮你查天气，它最多给你一段描述，但什么都不会真的发生。Function calling 的意义，是给模型一份"能力菜单"，让它在需要时自己决定调哪个工具、填什么参数，把一句回答变成一个真实执行的动作。它是模型从"会说"走向"会做"的关键一步，也是 Agent 能真正操控外部世界的基础。'
+summary: '模型只会"说话"，让它帮你查天气，它给你一段描述，而不是去搜索。Function calling给模型一份"能力菜单"，让它在需要时自己决定调哪个工具、填参数，把一句回答变成一个真实执行的动作。是模型从"会说"走向"会做"的关键一步，也是 Agent 能真正操控外部世界的基础。'
 phase: mainstream
 trend: absorbed
 signal: well-calibrated
