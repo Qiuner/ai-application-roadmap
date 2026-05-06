@@ -61,6 +61,7 @@ If you want the full English introduction, go to [README_EN.md](./README_EN.md).
 
 - 新增到 `docs/en/timeline/*.md` 或 `docs/zh/timeline/*.md` 的文件会自动出现在首页时间线。
 - 侧边栏时间轴链接由 `docs/.vitepress/config.ts` 根据目录自动生成。
+- 提交前缀规范见 [COMMIT_CONVENTION.md](./COMMIT_CONVENTION.md)。
 
 ## 治理规则
 

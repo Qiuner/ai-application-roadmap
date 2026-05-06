@@ -51,6 +51,7 @@ If you care about real AI application-engineering evolution, not only model scor
 Notes:
 - New files under `docs/en/timeline/*.md` and `docs/zh/timeline/*.md` are auto-loaded on the homepage timeline.
 - Sidebar timeline links are generated from timeline folders in `docs/.vitepress/config.ts`.
+- Commit prefix guidance is documented in [COMMIT_CONVENTION.md](./COMMIT_CONVENTION.md).
 
 ## Governance Rules
 
