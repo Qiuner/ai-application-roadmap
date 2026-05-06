@@ -37,6 +37,12 @@ This repository is meant to serve as a practical roadmap for applied AI, helping
 We welcome the best engineers, researchers, and builders worldwide to co-maintain this site.
 If you care about real AI application-engineering evolution, not only model scoreboards, your contribution matters here. Contributing is simple: add a timeline node under `docs/en/timeline/*.md` (or `docs/zh/timeline/*.md`) and open a PR. You can also share practical AI usage tips, and we can feature them in the Guide section.
 
+## Build This Together
+
+If you are also seriously tracking how applied AI engineering evolves, you are welcome to help build this repository.
+
+Whether you want to add a key timeline node, correct a date judgment, contribute a more reliable source, or turn real implementation experience into a Guide article, that contribution is valuable.
+
 ## How To Contribute
 
 1. Fork this repository and create a branch.
