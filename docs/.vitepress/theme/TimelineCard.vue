@@ -10,7 +10,6 @@ type TimelineCardItem = {
   title: string
   summary: string
   key: boolean
-  keyReason: string
   adoptionEffortLabel: string
   originLabel: string
 }
@@ -42,7 +41,6 @@ defineProps<{
         <a :href="withBase(item.url)">{{ item.title }}</a>
       </h4>
       <p class="cs-desc">{{ item.summary }}</p>
-      <p v-if="item.key && item.keyReason" class="cs-key-reason">{{ item.keyReason }}</p>
     </article>
   </div>
 </template>

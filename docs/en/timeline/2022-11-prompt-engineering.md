@@ -2,7 +2,7 @@
 title: Prompt Engineering
 date: 2022-11-30
 year: 2022
-summary: An engineering method for stabilizing model outputs through systematic prompt design, marking the shift from ad hoc querying to reproducible interaction programming.
+summary: 'Large language models are inherently probabilistic — the same prompt can yield different answers. Prompt engineering helps reduce this variance by setting roles, formats, and constraints, making outputs more stable and controllable. It also serves as the foundation for later paradigms like agents, function calling, and skills.'
 phase: mainstream
 trend: absorbed
 signal: well-calibrated

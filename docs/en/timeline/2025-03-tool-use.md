@@ -2,7 +2,7 @@
 title: Tool Use
 date: 2025-03-11
 year: 2025
-summary: A broader capability paradigm that extends function calling into multi-tool interaction and orchestration, marking the shift from single API calls to composable tool systems.
+summary: 'This is not a brand-new concept, but a system-level generalization of function calling. Function calling answers “how to call,” while tool use expands “what can be called.” Tools now include search engines, code interpreters, browsers, and databases. It extends the model’s capability boundary from language to all callable external resources.'
 phase: emerging
 trend: rising
 signal: well-calibrated
@@ -56,4 +56,3 @@ As Tool Use matures, systems will rely more on model-driven dynamic multi-tool c
 It is more likely to be absorbed into higher-level execution standards than disappear.
 
 Unified task-graph protocols, standardized agent communication layers, and system-level execution governance platforms may further abstract today's Tool Use patterns.
-

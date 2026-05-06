@@ -2,7 +2,7 @@
 title: Function Calling
 date: 2023-06-13
 year: 2023
-summary: A capability that lets models call external functions/APIs with structured parameters, marking the shift from text-only generation to executable actions.
+summary: 'Models are fundamentally text generators — they can describe actions but cannot execute them. Function calling introduces a “capability menu,” allowing the model to choose tools and fill in structured arguments when needed. This turns plain responses into real, executable actions, marking the shift from “just talking” to “actually doing.”'
 phase: mainstream
 trend: stable
 signal: well-calibrated
@@ -52,4 +52,3 @@ As this pattern matures, developers rely less on loose prompt constraints and mo
 It is more likely to be absorbed by higher-level abstractions than fully eliminated.
 
 Future frameworks for broader Tool Use, multi-tool orchestration protocols, and standardized execution environments will likely internalize Function Calling as a foundational layer.
-

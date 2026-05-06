@@ -9,7 +9,7 @@ import {
   type TimelineSignal,
   type TimelineTrend,
 } from './.vitepress/theme/labels'
-import { getTimelineDisplayMeta, getTimelineSlugFromUrl, type TimelineLocale } from './timeline.flags'
+import { getTimelineEditorialFlags, getTimelineSlugFromUrl } from './timeline.flags'
 
 export type TimelineItem = {
   title: string
@@ -25,7 +25,6 @@ export type TimelineItem = {
   author: string
   maintainer: string
   key: boolean
-  keyReason: string
   authoredBy: 'human' | 'ai-assisted' | 'ai-generated' | 'unknown'
   adoptionEffort: AdoptionEffort
 }
@@ -78,8 +77,7 @@ const toTimelineItem = (item: { url: string; frontmatter: Record<string, unknown
   const rawDate = extractDateFromSource(item.src)
   const date = rawDate ?? formatDateValue(frontmatter.date)
   const slug = getTimelineSlugFromUrl(url)
-  const locale: TimelineLocale = url.startsWith('/zh/') ? 'zh' : 'en'
-  const editorial = getTimelineDisplayMeta(slug, locale)
+  const editorial = getTimelineEditorialFlags(slug)
 
   return {
     title: String(frontmatter.title ?? ''),
@@ -95,7 +93,6 @@ const toTimelineItem = (item: { url: string; frontmatter: Record<string, unknown
     author: String(frontmatter.author ?? 'qiuner').toLowerCase(),
     maintainer: String(frontmatter.maintainer ?? frontmatter.author ?? 'qiuner').toLowerCase(),
     key: editorial.key,
-    keyReason: editorial.keyReason,
     authoredBy:
       frontmatter.authored_by === 'human' ||
       frontmatter.authored_by === 'ai-assisted' ||

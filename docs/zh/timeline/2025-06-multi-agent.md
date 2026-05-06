@@ -2,7 +2,7 @@
 title: Multi-agent（多智能体协作）
 date: 2025-06-13
 year: 2025
-summary: 一种通过多个软件智能体分工协作完成复杂任务的系统架构，在 LLM 工程化阶段进入生产级实践主流讨论。
+summary: '一个 Agent 再能干，也有上下文长度、单线程执行的天花板。multi-agent 的意义，是把一个复杂任务拆给多个 Agent 并行处理——一个负责搜索、一个负责分析、一个负责输出——像一个真正的团队协作，而不是一个人从头忙到尾。它让 AI 系统突破单个模型的能力边界，是处理长流程、高复杂度任务的必然选择。'
 phase: emerging
 trend: rising
 signal: well-calibrated

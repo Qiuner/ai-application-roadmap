@@ -2,7 +2,7 @@
 title: Context Engineering
 date: 2025-09-29
 year: 2025
-summary: An engineering method for structuring task execution around what information to provide to models, when to provide it, and in what volume, marking a shift from prompt optimization to context-system design.
+summary: 'Prompt engineering focuses on “how to ask,” but model performance largely depends on “what it sees.” Context engineering systematically organizes conversation history, retrieved knowledge, and tool outputs, ensuring the model reasons over the right information. It is the backbone of RAG and agent memory systems.'
 phase: emerging
 trend: rising
 signal: well-calibrated
@@ -56,4 +56,3 @@ As context engineering spreads, teams spend less time asking "how to rewrite thi
 It is more likely to be absorbed by higher abstractions than fully replaced.
 
 Capabilities such as automatic context schedulers, unified memory buses, and observable context policy engines may platformize today's manual context design work. The core idea that context determines system ceiling will remain.
-

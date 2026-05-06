@@ -2,7 +2,7 @@
 title: Multi-agent
 date: 2025-06-13
 year: 2025
-summary: A system architecture where multiple software agents collaborate through role specialization to complete complex tasks, entering mainstream production discussion in the LLM engineering era.
+summary: 'A single agent is limited by context length and sequential execution. Multi-agent systems break complex tasks into parallel roles — one searches, one analyzes, one writes — resembling real team collaboration. This significantly raises the ceiling for handling long and complex workflows.'
 phase: emerging
 trend: rising
 signal: well-calibrated
@@ -61,4 +61,3 @@ As orchestration matures, teams will rely less on giant one-shot prompts and sin
 It is more likely to be absorbed by higher-level orchestration abstractions than fully eliminated.
 
 Examples include automated task-graph compilers, standardized agent communication protocols, and system-level quality orchestration platforms that productize and standardize today's multi-agent practice.
-

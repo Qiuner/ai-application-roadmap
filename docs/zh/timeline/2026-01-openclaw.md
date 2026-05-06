@@ -2,7 +2,7 @@
 title: OpenClaw（个人 AI 助手网关）
 date: 2026-01-29
 year: 2026
-summary: 一个面向个人场景的本地优先 AI 助手系统，把多渠道消息入口、会话路由与工具执行集中到统一 Gateway 中运行。
+summary: 把微信、邮件、命令行等各种入口统一接入，让同一个 AI 助手在任何地方都能帮你调工具、处理任务。
 phase: emerging
 trend: rising
 signal: over-hyped

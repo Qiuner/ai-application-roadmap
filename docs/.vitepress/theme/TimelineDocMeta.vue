@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 import { AUTHORED_BY_LABELS, PHASE_LABELS, SIGNAL_LABELS, TREND_LABELS } from './labels'
-import { getTimelineDisplayMeta, getTimelineSlugFromRelativePath } from '../../timeline.flags'
+import { getTimelineEditorialFlags, getTimelineSlugFromRelativePath } from '../../timeline.flags'
 
 type TimelinePhase = 'mainstream' | 'emerging' | 'legacy'
 type TimelineTrend = 'rising' | 'stable' | 'absorbed' | 'shrinking' | 'obsolete'
@@ -28,7 +28,7 @@ const trend = computed(() => String(frontmatter.value.trend ?? 'stable') as Time
 const signal = computed(() => String(frontmatter.value.signal ?? 'well-calibrated') as TimelineSignal)
 const author = computed(() => String(frontmatter.value.author ?? 'qiuner'))
 const maintainer = computed(() => String(frontmatter.value.maintainer ?? frontmatter.value.author ?? 'qiuner'))
-const key = computed(() => getTimelineDisplayMeta(slug.value, isZh.value ? 'zh' : 'en').key)
+const key = computed(() => getTimelineEditorialFlags(slug.value).key)
 const authoredBy = computed(() => String(frontmatter.value.authored_by ?? 'unknown'))
 const tags = computed(() =>
   Array.isArray(frontmatter.value.tags) ? frontmatter.value.tags.map((t) => String(t)) : [],

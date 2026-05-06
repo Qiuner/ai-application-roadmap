@@ -2,7 +2,7 @@
 title: Tool Use（工具调用）
 date: 2025-03-11
 year: 2025
-summary: 一种将函数调用扩展为更广义工具交互与编排的能力范式，标志着 AI 系统从“单点 API 调用”走向“可组合工具系统”。
+summary: '不是全新发明，而是对 Function Calling 的能力泛化与系统升级。function calling 解决的是"怎么调用"，tool use 关注的是"能调用什么"。工具不只是函数——搜索引擎、代码执行器、浏览器、数据库，都可以是模型的工具。tool use 的意义，是把模型的能力边界从"语言"延伸到"一切可调用的外部资源"，让 Agent 真正具备与现实世界交互的手脚。'
 phase: emerging
 trend: rising
 signal: well-calibrated

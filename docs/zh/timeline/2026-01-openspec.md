@@ -2,7 +2,7 @@
 title: OpenSpec（规范驱动开发）
 date: 2026-01-26
 year: 2026
-summary: 一种把需求、规格、设计与任务拆解为可追踪工件的 AI 协作框架，推动“先对齐规格再让 AI 实施”成为可执行流程。
+summary: AI 写代码很快，但"为什么这么做"的决策往往消失在对话历史里。OpenSpec 在动手之前先写规格，让人和 AI 对齐要做什么、怎么做，每次改动都有据可查，不再靠"感觉"写代码。
 phase: emerging
 trend: rising
 signal: well-calibrated

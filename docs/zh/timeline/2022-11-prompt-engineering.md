@@ -2,7 +2,7 @@
 title: Prompt Engineering（提示词工程）
 date: 2022-11-30
 year: 2022
-summary: 一种通过系统化设计提示词来稳定控制模型输出的工程方法，标志着 AI 应用从“随便问问”走向“可设计、可复现”的交互编程阶段。
+summary: '大模型本质上是概率生成的，同一个问题也可能有不同回答。prompt engineering 的意义，是通过设定角色、格式等方式，把这种“发散输出”尽量收敛成更稳定、更可控的结果，是后续 Agent、Function Calling、Skills 等技术路径的底层起点。'
 phase: mainstream
 trend: absorbed
 signal: well-calibrated

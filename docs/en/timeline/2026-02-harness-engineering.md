@@ -2,7 +2,7 @@
 title: Harness Engineering
 date: 2026-02-11
 year: 2026
-summary: An AI engineering paradigm centered on building verifiable, iterative, and production-ready execution environments, shifting focus from single-prompt optimization to full-system controllability.
+summary: 'Prompts control how the model speaks, and context controls what it sees — but neither guarantees reliability. Harness engineering builds the surrounding system: tool orchestration, memory, error handling, and state tracking. Instead of hoping prompts fix failures, it eliminates them at the system level, making agents production-ready.'
 phase: emerging
 trend: rising
 signal: well-calibrated
@@ -48,4 +48,3 @@ As this paradigm spreads, teams discuss less "how to rewrite this prompt" and mo
 It is more likely to be absorbed by higher abstractions than overturned.
 
 Automated agent workflow frameworks, system-level quality orchestration platforms, and stronger constrained task-execution protocols may productize and standardize the core capabilities of Harness Engineering.
-

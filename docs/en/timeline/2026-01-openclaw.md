@@ -2,7 +2,7 @@
 title: OpenClaw (Personal AI Assistant Gateway)
 date: 2026-01-29
 year: 2026
-summary: A local-first personal AI assistant system that centralizes multi-channel message intake, session routing, and tool execution in a unified gateway runtime.
+summary: Unifies entry points like WeChat, email, and the command line into a single interface, so the same AI assistant can access tools and handle tasks consistently across environments.
 phase: emerging
 trend: rising
 signal: over-hyped

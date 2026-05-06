@@ -2,7 +2,7 @@
 title: OpenSpec (Spec-Driven Development)
 date: 2026-01-26
 year: 2026
-summary: An AI collaboration framework that turns requirements, specs, design, and task breakdowns into traceable artifacts, making "align on specs first, then implement with AI" an executable process.
+summary: AI can generate code quickly, but the reasoning behind “why it’s done this way” often gets lost in conversation history. OpenSpec introduces a spec-first approach — define what to build and how to build it before implementation — so both humans and AI stay aligned. Every change is traceable, replacing intuition-driven coding with explicit, documented decisions.
 phase: emerging
 trend: rising
 signal: well-calibrated
@@ -52,4 +52,3 @@ In iterative and collaborative work, artifact-driven pipelines like OpenSpec mak
 If a more unified standard protocol appears that combines specification, execution, verification, and archival, OpenSpec may be absorbed by higher-level platform capabilities.
 
 For example, workflow systems deeply integrated with IDEs and agent runtimes may further standardize practices that are currently repo-artifact centered.
-
