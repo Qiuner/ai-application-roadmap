@@ -46,4 +46,3 @@ Before returning final output, Claude Code must check:
 - No unnecessary zh/en divergence introduced.
 - Shared logic was updated instead of adding parallel logic.
 - Build/tests for affected scope were run, or missing verification is clearly reported.
-
