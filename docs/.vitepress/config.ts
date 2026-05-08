@@ -25,6 +25,39 @@ const fallbackTitleFromFilename = (stem: string): string => {
     .join(' ')
 }
 
+const buildGuideSidebarItems = (
+  directory: string,
+  linkPrefix: '/en/guide' | '/zh/guide',
+  overviewText: string
+): DefaultTheme.SidebarItem[] => {
+  const guideDir = path.join(docsRoot, directory)
+  const overviewItem: DefaultTheme.SidebarItem = {
+    text: overviewText,
+    link: `${linkPrefix}/`,
+  }
+
+  if (!fs.existsSync(guideDir)) return [overviewItem]
+
+  const articleItems = fs
+    .readdirSync(guideDir, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith('.md') && entry.name.toLowerCase() !== 'index.md')
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b))
+    .map((filename) => {
+      const stem = filename.replace(/\.md$/, '')
+      const filePath = path.join(guideDir, filename)
+      const source = fs.readFileSync(filePath, 'utf-8')
+      const title = extractTitleFromFrontmatter(source) ?? fallbackTitleFromFilename(stem)
+
+      return {
+        text: title,
+        link: `${linkPrefix}/${stem}`,
+      }
+    })
+
+  return [overviewItem, ...articleItems]
+}
+
 const buildTimelineSidebarItems = (
   directory: string,
   linkPrefix: '/en/timeline' | '/zh/timeline'
@@ -54,6 +87,8 @@ const buildTimelineSidebarItems = (
 
 const timelineSidebarItems = buildTimelineSidebarItems('en/timeline', '/en/timeline')
 const zhTimelineSidebarItems = buildTimelineSidebarItems('zh/timeline', '/zh/timeline')
+const guideSidebarItems = buildGuideSidebarItems('en/guide', '/en/guide', 'Overview')
+const zhGuideSidebarItems = buildGuideSidebarItems('zh/guide', '/zh/guide', '概览')
 
 const createHomeHero = (lang: 'en' | 'zh') =>
   lang === 'zh'
@@ -129,7 +164,7 @@ export default defineConfig({
         sidebar: [
           {
             text: 'Guide',
-            items: [{ text: 'Overview', link: '/en/guide/' }],
+            items: guideSidebarItems,
           },
           {
             text: 'Timeline',
@@ -151,7 +186,7 @@ export default defineConfig({
         sidebar: [
           {
             text: '指南',
-            items: [{ text: '概览', link: '/zh/guide/' }],
+            items: zhGuideSidebarItems,
           },
           {
             text: '时间轴',
