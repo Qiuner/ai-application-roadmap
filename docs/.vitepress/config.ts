@@ -115,7 +115,21 @@ export default defineConfig({
   title: projectMeta.repoName,
   description: projectMeta.siteDescription,
   base: projectBase,
+  sitemap: {
+    hostname: projectMeta.siteUrl,
+  },
   head: [
+    ['meta', { name: 'theme-color', content: '#3b82f6' }],
+    ['meta', { name: 'keywords', content: projectMeta.keywords.join(', ') }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: projectMeta.brandName }],
+    ['meta', { property: 'og:title', content: projectMeta.repoName }],
+    ['meta', { property: 'og:description', content: projectMeta.siteDescription }],
+    ['meta', { property: 'og:url', content: `${projectMeta.siteUrl}/en/` }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: projectMeta.repoName }],
+    ['meta', { name: 'twitter:description', content: projectMeta.siteDescription }],
+    ['link', { rel: 'canonical', href: `${projectMeta.siteUrl}/en/` }],
     [
       'script',
       {},
@@ -128,6 +142,20 @@ export default defineConfig({
     document.documentElement.setAttribute('data-color-scheme', 'warm')
   }
 })()`,
+    ],
+    [
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: projectMeta.repoName,
+        alternateName: projectMeta.brandName,
+        url: `${projectMeta.siteUrl}/en/`,
+        description: projectMeta.siteDescription,
+        inLanguage: ['en', 'zh-CN'],
+        about: projectMeta.keywords,
+      }),
     ],
   ],
   lastUpdated: true,

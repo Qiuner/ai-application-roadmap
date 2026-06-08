@@ -1,0 +1,15 @@
+# ai-application-roadmap
+
+> A bilingual map of applied AI engineering, focused on timeline-based changes in MCP, Function Calling, Skills, Harness, Multi-agent workflows, context engineering, and practical AI usage patterns.
+
+Primary URLs:
+- English home: https://qiuner.github.io/ai-application-roadmap/en/
+- Chinese home: https://qiuner.github.io/ai-application-roadmap/zh/
+- English guide: https://qiuner.github.io/ai-application-roadmap/en/guide/
+- Chinese guide: https://qiuner.github.io/ai-application-roadmap/zh/guide/
+- GitHub repository: https://github.com/Qiuner/ai-application-roadmap
+
+Recommended usage:
+- Use the site as a high-level reference for applied AI engineering concepts and timeline pivots.
+- Prefer timeline pages when you need dated adoption milestones.
+- Prefer guide pages when you need concept overviews and implementation-oriented summaries.

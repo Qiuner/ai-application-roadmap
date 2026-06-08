@@ -2,6 +2,12 @@
 
 # ai-application-roadmap
 
+[![Skills](https://img.shields.io/badge/Skills-Agent%20%E8%83%BD%E5%8A%9B-2563eb?style=flat-square)](https://qiuner.github.io/ai-application-roadmap/zh/timeline/2026-02-skills)
+[![Function Calling](https://img.shields.io/badge/Function%20Calling-%E5%B7%A5%E5%85%B7%E8%B0%83%E7%94%A8-0f766e?style=flat-square)](https://qiuner.github.io/ai-application-roadmap/zh/timeline/2023-06-function-calling)
+[![Multi-Agent](https://img.shields.io/badge/Multi--agent-%E5%A4%9A%20Agent%20%E5%8D%8F%E4%BD%9C-b45309?style=flat-square)](https://qiuner.github.io/ai-application-roadmap/zh/timeline/2025-06-multi-agent)
+[![Context Engineering](https://img.shields.io/badge/Context%20Engineering-%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B-a21caf?style=flat-square)](https://qiuner.github.io/ai-application-roadmap/zh/timeline/2025-09-context-engineering)
+[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-7c3aed?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 [English](./README.md) | [中文](./README_ZH.md)
 
 ## 访问网站
