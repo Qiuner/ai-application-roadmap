@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./docs/ai-application-roadmap-cover.jpg" alt="ai-application-roadmap cover" width="100%" />
+
 # ai-application-roadmap
 
 [![Skills](https://img.shields.io/badge/Skills-agent%20capabilities-2563eb?style=flat-square)](https://qiuner.github.io/ai-application-roadmap/en/timeline/2026-02-skills)
